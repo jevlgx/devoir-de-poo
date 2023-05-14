@@ -1,0 +1,308 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+*, ::before, ::after{
+    margin: 0px;
+    padding: 0px;
+    /* margin-left: 10px; */
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    --blue: #3D5CFF;
+    --second-blue: #C3D1FF;
+    --orange: #F48C06;
+    --second_orange: #FFCE8F;
+    --second_red: #F3627C;
+    --dark_blue: #2F327D;
+    --second_dark_blue: #696984;
+    color: var(--second_dark_blue);
+    font-family: 'Poppins';
+}
+h1{
+    font-size: 210%;
+    font-weight: bold;
+    color: var(--dark_blue);
+}
+#container_du_body{
+    max-width: 1252px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color: #fff;
+}
+/* METTRE LES INFOS DU HEADER ICI : DEBUT */
+/* METTRE LES INFOS DU HEADER ICI : FIN */
+
+
+.main_section{
+    padding: 120px 0px;
+}
+.main_title_start{
+    color: var(--dark_blue);
+}
+.main_title_end{
+    color: var(--orange);
+}
+.cercle_icon{
+    fill: #fff;
+    width: 70%;
+    aspect-ratio: 1/1;
+}
+#all_in_one_section > h1, #all_in_one_section > p {
+    text-align: center;
+    margin: 20px auto;
+}
+#all_in_one_section > p{
+    max-width: 50%;
+}
+#all_in_one_section > div{
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#all_in_one_section > div > div{
+    position: relative;
+    padding: 3.9% 4.3%;
+    max-width: 358.93px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    display: flex;
+}
+#all_in_one_section > div > div > div{
+    width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#all_in_one_section > div > div > h2{
+    text-align: center;
+    margin-top: 30px;
+    color: var(--dark_blue);
+}
+#all_in_one_section > div > div > p{
+    text-align: center;
+    margin-top: 15px;
+}
+#main_cercle_1{
+    background-color: var(--dark_blue);
+}
+#main_cercle_2{
+    background-color: var(--orange);
+}
+#main_cercle_3{
+    background-color: var(--dark_blue);
+}
+.linear_section > div, #temoignage_section > div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.linear_section > div > div, #temoignage_section > div > div{
+    position: relative;
+    width: 45%;
+    height: 305px;
+    text-align: center;
+    /* border: 1px solid blue; */
+    overflow: visible;
+}
+#temoignage_section > div > div{
+    height: 502px;
+}
+.linear_section h1, #temoignage_section h1{
+    padding: 20px 0px;
+}
+.linear_sections_div_gauche{
+    height: 1000px;
+}
+.linear_sections_div_gauche > div{
+    height: fit-content;
+}
+.linear_sections_div_gauche{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.linear_section_div_of_image{
+
+}
+.linear_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 14px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+}
+#temoignage_section img{
+    height: 100%;
+    width: 75%;
+    object-fit: cover;
+    /* padding: 14px; */
+    border-radius: 40px;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.top_left_square{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: var(--second-blue);
+    border-radius: 18px;
+}
+.rigth_bottom_square{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: var(--second_orange);
+    border-radius: 18px;
+}
+#temoignage_bloc_gauche{
+    display: block;
+    text-align: left;
+}
+#temoignages_p1, #temoignages_p2, #temoignages_p3{
+    margin: 23px 0px;
+}
+#temoignages_p1{
+    margin-top: 0px;
+}
+#temoignages_p2{
+    max-width: 400px;
+}
+#second_div_temoignage_bloc_gauche{
+
+    border: 1px solid var(--orange);
+    /* padding: 1px; */
+    padding-right: 0px;
+    margin: 10px 0px;
+    border-radius: 50px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+#arrow_rigth{
+    width: 40px;
+    height: 100%;
+    border: 1px solid var(--orange);
+    border-radius: 50%;
+    fill: var(--orange);
+    margin-left: 10px;
+    color: var(--orange);
+}
+#div_trait_temoignages{
+    display: flex;
+    align-items: center;
+}
+#trait_temoignages{
+    width: 60px;
+    /* height: 1px; */
+    margin: 0px;
+    border: 1px solid var(--dark_blue);
+}
+#temoignages{
+    color: var(--dark_blue);
+    font-size: large;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+#redigez{
+    margin-left: 10px;
+    color: var(--orange);
+}
+#image_temoignage{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 0px;
+}
+#texte_du_temoignage{
+    background-color: #fff;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    border-radius: 20px;
+    z-index: 2;
+    border: 1px solid 00000;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-left: 10px solid var(--second_orange);
+    max-width: 449px;
+    padding: 30px;
+}
+#texte_du_temoignage > p{
+    text-align: left;
+    border-left: 2px solid #BDBDD1;
+    padding-left: 30px;
+}
+#texte_du_temoignage > h3{
+    text-align: left;
+    width: max-content;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+#div_etoiles_temoignage{
+    position: absolute;
+    bottom: 49px;
+    right: 31px;
+}
+#div_etoiles_temoignage img{
+    width: 20px;
+    height: auto;
+    position: static;
+}
+#arrow_image_temoignage{
+    position: absolute;
+    left: 155px;
+    top: 19px;
+    width: 50px;
+    height: 50px;
+    /* background-color: #fff; */
+    fill: var(--blue);
+    z-index: 3;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    /* font-weight: bolder; */
+}
+@media screen and (max-width : 768px){
+    .main_section{
+        padding: 30px 0px;
+    }
+    #all_in_one_section > div{
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+    }
+    #container_du_body{
+        padding: 10px;
+    }
+    #all_in_one_section > h1, #all_in_one_section > p {
+        max-width: 100%;
+        margin: 20px;
+    }
+    h1{
+        font-size: 150%;
+    }
+    .linear_section > div, #temoignage_section > div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .linear_section > div > div, #temoignage_section > div > div {
+        width: 100%;
+        max-width: 416px;
+    }
+}
